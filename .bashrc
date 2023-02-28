@@ -7,7 +7,11 @@ mcd () {
 
 # This function changes the working directory and list contents in the $(pwd).
 cls () {
-  cd "$1"
+  if [ $# -eq 0 ]; then
+    cd
+  else
+    cd "$1"
+  fi
   ls
 }
 # End of section
