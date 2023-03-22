@@ -1,6 +1,6 @@
 # Added by whoslcy
 # This function make a new directory and change the working directory to it.
-mcd () {
+mdcd () {
   mkdir -p "$1"
   cd "$1"
 }
@@ -14,4 +14,11 @@ cls () {
   fi
   ls
 }
+
+alias gs="git status"
+#git config --global alias.lol "log --graph --oneline --decorate --color --all"
+alias gl="git log --graph --oneline --decorate --color --all -10"
+alias ga="git add"
+alias gc="git commit"
+alias gb="git branch"
 # End of section
