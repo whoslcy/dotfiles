@@ -5,6 +5,7 @@ sudo apt update
 sudo apt install git
 git config --global user.name 'whoslcy'
 git config --global user.email 'whoslcy@foxmail.com'
+git config --global core.editor vim
 
 sudo apt install \
 vim \
