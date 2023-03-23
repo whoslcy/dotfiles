@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
 sudo apt update
+
+sudo apt install git
+git config --global user.name 'whoslcy'
+git config --global user.email 'whoslcy.foxmail'
+
 sudo apt install \
-git \
 vim \
 wget \
 curl \
