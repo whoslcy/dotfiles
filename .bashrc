@@ -21,4 +21,6 @@ alias gl="git log --graph --oneline --decorate --color --all -10"
 alias ga="git add"
 alias gc="git commit"
 alias gb="git branch"
+alias gcc="gcc -Wall"
+alias g++="g++ -Wall"
 # End of whoslcy
