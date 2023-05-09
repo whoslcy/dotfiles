@@ -91,3 +91,6 @@ set expandtab
 " Each tab is 4 spaces
 set tabstop=4
 set autoindent
+
+set smartindent
+set shiftwidth=4
