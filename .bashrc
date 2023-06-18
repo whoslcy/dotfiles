@@ -144,6 +144,8 @@ alias ga="git add"
 alias gcm="git commit"
 alias gck="git checkout"
 alias gb="git branch"
+alias gp="git push"
 alias gcc="gcc -Wall"
 alias g++="g++ -Wall"
+alias tldr="tldr -t base16"
 # End of whoslcy
