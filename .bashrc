@@ -148,4 +148,8 @@ alias gp="git push"
 alias gcc="gcc -Wall"
 alias g++="g++ -Wall"
 alias tldr="tldr -t base16"
+
+export PATH="/usr/lib/ccache:${PATH}"
+export NEMU_HOME=/home/whoslcy/development/ics2022/nemu
+export NEMU_HOME=/home/whoslcy/development/ics2022/nemu
 # End of whoslcy
