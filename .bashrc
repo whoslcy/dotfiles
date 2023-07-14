@@ -149,6 +149,7 @@ alias gpl="git pull"
 alias gcc="gcc -Wall"
 alias g++="g++ -Wall"
 alias tldr="tldr -t base16"
+alias grep='grep --color=auto --line-number'
 
 export PATH="/usr/lib/ccache:${PATH}"
 export NEMU_HOME=/home/whoslcy/development/ics2022/nemu
