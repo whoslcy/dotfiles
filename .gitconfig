@@ -1,0 +1,13 @@
+[init]
+	defaultBranch = main
+[user]
+	name = whoslcy
+	email = whoslcy@outlook.com
+[core]
+	editor = vim
+[alias]
+	lol = log --graph --oneline --decorate --color -10
+	co = checkout
+	br = branch
+	ci = commit
+	st = status

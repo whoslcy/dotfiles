@@ -137,21 +137,12 @@ cls () {
   ls
 }
 
-alias gs="git status"
-#git config --global alias.lol "log --graph --oneline --decorate --color --all"
-alias gl="git log --graph --oneline --decorate --color --all -10"
-alias ga="git add"
-alias gcm="git commit"
-alias gck="git checkout"
-alias gb="git branch"
-alias gpsh="git push"
-alias gpl="git pull"
 alias gcc="gcc -Wall"
 alias g++="g++ -Wall"
 alias tldr="tldr -t base16"
 alias grep='grep --color=auto --line-number'
 
 export PATH="/usr/lib/ccache:${PATH}"
+# End of whoslcy
 export NEMU_HOME=/home/whoslcy/development/ics2022/nemu
 export AM_HOME=/home/whoslcy/development/ics2022/abstract-machine
-# End of whoslcy
