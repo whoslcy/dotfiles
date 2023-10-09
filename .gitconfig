@@ -6,7 +6,7 @@
 [core]
 	editor = vim
 [alias]
-	lol = log --graph --oneline --decorate --color -10
+	lol = log --graph --oneline --decorate --color --all -10
 	co = checkout
 	br = branch
 	ci = commit
