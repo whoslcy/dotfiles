@@ -142,6 +142,9 @@ alias g++="g++ -Wall"
 alias tldr="tldr -t base16"
 alias grep='grep --color=auto --line-number'
 
+# Ryzen 5 3500X is of 6 cores and 6 threads
+alias make='make -j6'
+
 export PATH="/usr/lib/ccache:${PATH}"
 # End of whoslcy
 export NEMU_HOME=/home/whoslcy/ics2023/nemu
